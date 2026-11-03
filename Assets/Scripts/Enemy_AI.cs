@@ -50,13 +50,18 @@ public class Enemy_AI : MonoBehaviour
 
     private void ChaseTarget()
     {
+        GetComponent<Animator>().SetBool("attack", false);
+
+        GetComponent<Animator>().SetTrigger("run");
+
         nma.SetDestination(target.position);
     }
 
     private void AttackTarget()
     {
-        //temp for now to show that the enemy is attacking
-        print(name + " is attacking " + target.name);
+        GetComponent<Animator>().SetBool("attack", true);
+
+
     }
 
     private void OnDrawGizmosSelected()
