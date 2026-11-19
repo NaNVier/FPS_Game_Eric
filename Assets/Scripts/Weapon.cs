@@ -78,10 +78,10 @@ public class Weapon : MonoBehaviour
     {
         ProcessRaycast();
 
-        // TODO:
         // Muzzle flash effect
         PlayMuzzleFlash();
-        
+
+        // TODO:
         // Integrate ammo system
         // Play a "shoot" sound?
     }
@@ -91,8 +91,6 @@ public class Weapon : MonoBehaviour
     {
         // A RaycastHit stores what the ray hit (transform), where (point), and which way the surface faces (normal).
         RaycastHit hit;
-
-        
 
         // Four of the Raycast parameters: where from, which direction, what we hit, how far.
         // "out hit" fills in our RaycastHit. The mask skips the Weapons layer, and Ignore keeps trigger colliders such as pickups from blocking shots.
