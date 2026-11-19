@@ -22,6 +22,10 @@ public class Weapon : MonoBehaviour
 
     [SerializeField] private float damage = 1;
 
+    [SerializeField] private ParticleSystem muzzelFlash;
+    [SerializeField] private GameObject hitEffect;
+    [SerializeField] float hitEffectLifetime = 0.1f;
+
     // Runs once when the object loads.
     void Awake()
     {
@@ -76,7 +80,8 @@ public class Weapon : MonoBehaviour
 
         // TODO:
         // Muzzle flash effect
-        // Hit effect for visual feedback
+        PlayMuzzleFlash();
+        
         // Integrate ammo system
         // Play a "shoot" sound?
     }
@@ -87,6 +92,8 @@ public class Weapon : MonoBehaviour
         // A RaycastHit stores what the ray hit (transform), where (point), and which way the surface faces (normal).
         RaycastHit hit;
 
+        
+
         // Four of the Raycast parameters: where from, which direction, what we hit, how far.
         // "out hit" fills in our RaycastHit. The mask skips the Weapons layer, and Ignore keeps trigger colliders such as pickups from blocking shots.
         if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward,
@@ -96,6 +103,9 @@ public class Weapon : MonoBehaviour
             // TODO: damage the target (added in the tutorial)
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
 
+            // Hit effect for visual feedback
+            CreateImpact(hit);
+
             if (target == null)
             {
                 return;
@@ -103,5 +113,17 @@ public class Weapon : MonoBehaviour
 
             target.TakeDamage(damage);
         }
+    }
+
+    private void PlayMuzzleFlash()
+    {
+        muzzelFlash.Play();
+    }
+
+    private void CreateImpact(RaycastHit hit)
+    {
+        GameObject impact = Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal));
+
+        Destroy(impact, hitEffectLifetime);
     }
 }
