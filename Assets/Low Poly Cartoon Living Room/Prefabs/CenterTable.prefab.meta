@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c0c0caf5b638d2e40a57878c5dc5bc9e
+timeCreated: 1553910061
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143123
+  packageName: Low Poly Cartoon Living Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Cartoon Living Room/Prefabs/CenterTable.prefab
+  uploadId: 302660

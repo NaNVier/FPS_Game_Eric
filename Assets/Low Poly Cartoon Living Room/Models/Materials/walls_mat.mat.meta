@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ffc93975dc76b2a4f8fb1250c19f1e90
+timeCreated: 1551150419
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143123
+  packageName: Low Poly Cartoon Living Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Cartoon Living Room/Models/Materials/walls_mat.mat
+  uploadId: 302660

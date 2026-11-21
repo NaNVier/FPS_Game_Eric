@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cad3cef890ee27b4c8835a378f684893
+timeCreated: 1553912152
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143123
+  packageName: Low Poly Cartoon Living Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Cartoon Living Room/Models/Materials/out_of_bounds.mat
+  uploadId: 302660

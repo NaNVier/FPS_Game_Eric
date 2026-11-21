@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c0564c19e663bd346b391d66581c599d
+timeCreated: 1553910063
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143123
+  packageName: Low Poly Cartoon Living Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Cartoon Living Room/Prefabs/Cushion.prefab
+  uploadId: 302660

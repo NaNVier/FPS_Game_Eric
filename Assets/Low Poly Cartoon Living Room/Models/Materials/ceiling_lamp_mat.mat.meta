@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0472a94b2f7cbcf43b442a9cf9cbfb22
+timeCreated: 1552856899
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143123
+  packageName: Low Poly Cartoon Living Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Cartoon Living Room/Models/Materials/ceiling_lamp_mat.mat
+  uploadId: 302660

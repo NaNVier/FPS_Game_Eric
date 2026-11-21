@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: de6555664abc25c46999c3d0c8caa562
+timeCreated: 1553910114
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143123
+  packageName: Low Poly Cartoon Living Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Cartoon Living Room/Prefabs/Sofa.prefab
+  uploadId: 302660
