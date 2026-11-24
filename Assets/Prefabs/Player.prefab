@@ -323,6 +323,7 @@ GameObject:
   - component: {fileID: 3265047435144121595}
   - component: {fileID: 3867534105291476210}
   - component: {fileID: 4977392468326320287}
+  - component: {fileID: 1124057559990441201}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -551,6 +552,19 @@ MonoBehaviour:
   ammoSlots:
   - ammoType: 2
     ammoAmount: 10
+--- !u!114 &1124057559990441201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7911475281555737336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556ecac7cf01ae242bd7cd25708ee6ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  hitPoints: 100
 --- !u!1001 &708291547167151907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -648,7 +662,7 @@ MonoBehaviour:
   ammo: {fileID: 4977392468326320287}
   damage: 1
   muzzelFlash: {fileID: 5986560667869524908}
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 100010, guid: bd42a8b9e720b3e4bbbe7537ef205260, type: 3}
   hitEffectLifetime: 0.1
 --- !u!1001 &6319473686215165035
 PrefabInstance:
@@ -817,9 +831,9 @@ MonoBehaviour:
   FPCamera: {fileID: 0}
   range: 100
   shotCooldown: 0.5
-  ammoType: 0
-  ammo: {fileID: 0}
+  ammoType: 2
+  ammo: {fileID: 4977392468326320287}
   damage: 1
   muzzelFlash: {fileID: 5986560667869524908}
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 100010, guid: bd42a8b9e720b3e4bbbe7537ef205260, type: 3}
   hitEffectLifetime: 0.1
