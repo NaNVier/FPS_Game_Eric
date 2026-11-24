@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   hitPoints: 3
+  isDead: 0
 --- !u!114 &30841430456551197
 MonoBehaviour:
   m_ObjectHideFlags: 0
