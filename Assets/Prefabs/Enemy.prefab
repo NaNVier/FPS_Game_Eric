@@ -107,7 +107,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8750181127830900053}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: b1787a7070753594996dac074aee4532, type: 3}
   m_Controller: {fileID: 9100000, guid: c7f5b32bec8785443baab585b41c6755, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1fc1f01034664644bc897fa6d551329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
-  damage: 40
+  damage: 10
 --- !u!1001 &4063855207887508670
 PrefabInstance:
   m_ObjectHideFlags: 0
